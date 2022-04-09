@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/navajitsarkar.lwc-l1rb0gjw-fork-l1rb4p3o",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve IpD0Gm9s5uPORqMObGHz --open"
+  }
+}

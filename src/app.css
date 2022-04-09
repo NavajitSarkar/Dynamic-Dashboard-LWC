@@ -1,0 +1,9 @@
+header{
+    grid-area : header;
+    padding : 0.5em;
+    margin : 0;
+    text-align: center;
+    background:#222;
+    color:#9d9d9d;
+    font-size: 1.5em;    
+}
