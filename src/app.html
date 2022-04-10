@@ -1,3 +1,21 @@
 <template>
 		<header>Covid-19 Tracking</header>
+		<div class='slds-m-top_large slds-grid ' >
+				<div class= 'slds-col bg-primary slds-p-around_small slds-m-around_small'>
+						<div class='slds-text-align_center slds-text-heading_medium white-color'> Total Confirmed</div>
+						<div class='slds-text-align_center slds-text-heading_medium white-color'>{total.total_confirmed}</div>
+				</div>
+				<div class= 'slds-col bg-warning slds-p-around_small slds-m-around_small'>
+						<div class='slds-text-align_center slds-text-heading_medium white-color'> Total Active</div>
+						<div class='slds-text-align_center slds-text-heading_medium white-color'>{total.total_active}</div>
+				</div>
+				<div class= 'slds-col bg-success slds-p-around_small slds-m-around_small'>
+						<div class='slds-text-align_center slds-text-heading_medium white-color'> Total Recovered</div>
+						<div class='slds-text-align_center slds-text-heading_medium white-color'>{total.total_recovered}</div>
+				</div>
+				<div class= 'slds-col bg-danger slds-p-around_small slds-m-around_small'>
+						<div class='slds-text-align_center slds-text-heading_medium white-color'> Total Deaths</div>
+						<div class='slds-text-align_center slds-text-heading_medium white-color'>{total.total_deaths}</div>
+				</div>
+		</div>
 </template>

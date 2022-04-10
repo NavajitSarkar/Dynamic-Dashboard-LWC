@@ -1,4 +1,4 @@
-import { LightningElement } from "lwc";
+import { LightningElement,track } from "lwc";
 const URL = 'https://services9.arcgis.com/N9p5hsImWXAccRNI/arcgis/rest/services/Z7biAeD8PAkqgmWhxG2A/FeatureServer/1/query?f=json&where=Confirmed+%3E+0&outFields=Country_Region%2CConfirmed%2CDeaths%2CRecovered%2CLast_Update%2CActive&orderByFields=Confirmed+desc';
 var initialValue={
   total_deaths : 0,
@@ -9,7 +9,7 @@ var initialValue={
   total_recovery_rate : 0 
 }
 export default class App extends LightningElement {
-  total = initialValue;
+  @track total = initialValue;
 
   connectedCallback()
   {
