@@ -7,3 +7,24 @@ header{
     color:#9d9d9d;
     font-size: 1.5em;    
 }
+.bg-primary {
+    background-color: #007bff;
+}
+.bg-warning {
+    background-color: #dd9105;
+}
+.bg-success {
+    background-color: #28a745;
+}
+.bg-danger {
+    background-color: #dc3545;
+}
+.bg-info {
+    background-color: #17a2b8;
+}
+.bg-secondary {
+    background-color: #413b7f;
+}
+.bg-light {
+    background-color: #2664a2!important;
+}
